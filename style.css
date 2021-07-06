@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
-    background: coral;
+    background: rgb(151, 172, 184);
 }
 
 .btn{
@@ -16,8 +16,17 @@ body {
     padding: 0.75em;
     text-transform: uppercase;
     background: none;
-    color: #2c2c2c;
-    border: 1px solid #4a4a4a;
+    color: #1b19b5;
+    border: 1px solid #e64b1c;
+    border-radius: 2px;
+    transition: all 200ms;
+}
+
+.btn:hover {
+    border: 1px solid #e7e718;
+    color: #2c2c22;
+    font-size: 1.1rem;
+
 }
 
 /* styling for name reveal */
