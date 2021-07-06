@@ -1,4 +1,27 @@
-html, body {
+/* styling for reveal button */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background: coral;
+}
+
+.btn{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    padding: 0.75em;
+    text-transform: uppercase;
+    background: none;
+    color: #2c2c2c;
+    border: 1px solid #4a4a4a;
+}
+
+/* styling for name reveal */
+/* html, body {
     background: rgb(149, 160, 172);
     margin: 0em;
   }
@@ -42,7 +65,7 @@ html, body {
 
 .name {
     font-weight:600px;
-}
+} */
   
 
 /* styleing for emoji html */
