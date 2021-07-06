@@ -44,4 +44,9 @@ function toggleText(){
         btn.innerText = "hide text 🙈";
         text.getElementsByClassName.opacity = 1;
     }
+    shown =!shown
 }
+
+btn.addEventListener('click', () => {
+    toggleText();
+})
